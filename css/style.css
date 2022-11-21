@@ -1,0 +1,43 @@
+.img-fit {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.box-img{
+    height: 15rem;
+}
+.menu-text{
+    font-size: 2.5em;
+}
+.btn-dark{
+    background-color : #517949;
+    border: #517949;
+}
+.btn-dark:hover,
+.btn-dark:active
+{
+    background-color: #3f5d39;
+}
+.btn-outline-dark{
+    border-color: #517949;
+    color: #517949;
+}
+.btn-outline-dark:hover{
+    border-color: #517949;
+    background-color : #517949;
+}
+.link-dark,
+.link-dark:hover,
+.link-dark:focus{
+    text-decoration: none;
+}
+@media screen and (min-width: 992px){
+    .box-img{
+        height: 30rem;
+    }
+    .menu-text{
+        padding-top: 17rem;
+        font-size: 2em;
+
+    }
+}
